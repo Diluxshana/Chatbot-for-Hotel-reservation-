@@ -1,0 +1,201 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi there",
+          "How are you",
+          "Is anyone there?",
+          "Hey",
+          "Hola",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "Hello",
+          "Good to see you again",
+          "Hi there, how can I help?"
+        ],
+        "context": [""]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": [
+          "Bye",
+          "See you later",
+          "Goodbye",
+          "Nice chatting to you, bye",
+          "Till next time"
+        ],
+        "responses": [
+          "See you!",
+          "Have a nice day",
+          "Bye! Come back again soon."
+        ],
+        "context": [""]
+      },
+      {
+        "tag": "thanks",
+        "patterns": [
+          "Thanks",
+          "Thank you",
+          "That's helpful",
+          "Awesome, thanks",
+          "Thanks for helping me"
+        ],
+        "responses": ["My pleasure", "You're Welcome"],
+        "context": [""]
+      },
+      {
+        "tag": "query",
+        "patterns": [
+          "What is Simplilearn?"
+        ],
+        "responses": [
+          "Simplilearn is the popular online Bootcamp & online courses learning platform."
+        ],
+        "context": [""]
+      },
+      {
+        "tag": "hotel_info",
+        "patterns": [
+          "Can you provide information about the hotel amenities?",
+          "What facilities does the hotel offer?",
+          "Tell me about the hotel's services.",
+          "What kind of rooms does the hotel have?",
+          "Can I get room service?",
+          "Is there a gym in the hotel?",
+          "Does the hotel have a swimming pool?",
+          "Are pets allowed in the hotel?",
+          "Can I make a reservation?"
+        ],
+        "responses": [
+          "Our hotel offers a variety of amenities including room service, gym facilities, swimming pool, and pet-friendly accommodations. You can make a reservation by contacting our front desk or through our website."
+        ],
+        "context": [""]
+      },
+      {
+        "tag": "room_info",
+        "patterns": [
+          "What types of rooms are available?",
+          "Do you have single rooms?",
+          "Are there suites in the hotel?",
+          "Can I get a room with a view?",
+          "Do you offer discounts for longer stays?"
+        ],
+        "responses": [
+          "We have single rooms, suites, and rooms with scenic views available for booking. Discounts may be available for longer stays. Please inquire with our reservation team for more details."
+        ],
+        "context": [""]
+      },
+      {
+        "tag": "reservation_info",
+        "patterns": [
+          "How can I make a reservation?",
+          "Can I book a room online?",
+          "What are the check-in and check-out times?",
+          "Do you require a deposit for reservations?"
+        ],
+        "responses": [
+          "You can make a reservation by calling our reservation hotline or through our website's booking system. Check-in time is at 3:00 PM and check-out time is at 12:00 PM. A deposit may be required for certain types of reservations."
+        ],
+        "context": [""]
+      },
+      {
+        "tag": "cancel_reservation",
+        "patterns": [
+          "How can I cancel my reservation?",
+          "Is there a cancellation fee?",
+          "What is the cancellation policy?"
+        ],
+        "responses": [
+          "You can cancel your reservation by contacting our reservation department or through the booking platform you used. The cancellation policy and any associated fees depend on the type of reservation and the timing of the cancellation. Please refer to your booking confirmation or contact us for more information."
+        ],
+        "context": [""]
+      },
+      {
+        "tag": "wifi_info",
+        "patterns": [
+          "Is there free WiFi available?",
+          "Do you provide WiFi access?",
+          "How's the internet connection in the hotel?"
+        ],
+        "responses": [
+          "Yes, we provide complimentary WiFi access throughout the hotel premises."
+        ],
+        "context": [""]
+      },
+      {
+        "tag": "pool_info",
+        "patterns": [
+          "Is the swimming pool open to guests?",
+          "Can guests use the pool?",
+          "Tell me about the swimming pool."
+        ],
+        "responses": [
+          "Our swimming pool is available for guests to use during specified hours. Please check with our front desk for the current schedule."
+        ],
+        "context": [""]
+      },
+      {
+        "tag": "restaurant_info",
+        "patterns": [
+          "Does the hotel have a restaurant?",
+          "Are there dining options available?",
+          "Tell me about the hotel restaurant."
+        ],
+        "responses": [
+          "Yes, we have an onsite restaurant serving a variety of delicious dishes. Guests can enjoy breakfast, lunch, and dinner at our restaurant."
+        ],
+        "context": [""]
+      },
+      {
+        "tag": "checkin_checkout_info",
+        "patterns": [
+          "What are the check-in and check-out times?",
+          "When can I check in and out?"
+        ],
+        "responses": [
+          "Check-in time is at 3:00 PM and check-out time is at 12:00 PM."
+        ],
+        "context": [""]
+      },
+      {
+        "tag": "available_rooms_info",
+        "patterns": [
+          "Do you have any rooms available?",
+          "Can I book a room now?",
+          "Are there vacancies?"
+        ],
+        "responses": [
+          "Please let us know your desired check-in and check-out dates, and we will check the availability for you."
+        ],
+        "context": [""]
+      },
+      {
+        "tag": "payment_info",
+        "patterns": [
+          "How can I pay for my stay?",
+          "What payment methods are accepted?",
+          "Can I pay with a credit card?"
+        ],
+        "responses": [
+          "We accept various payment methods including credit cards, debit cards, and cash. Payment can be settled upon check-in or check-out."
+        ],
+        "context": [""]
+      },
+      {
+        "tag": "room_rates",
+        "patterns": [
+          "How much does a room cost?",
+          "What are your room rates?",
+          "Can you tell me the price of a room?"
+        ],
+        "responses": [
+          "Our room rates vary depending on the room type, season, and availability. Please specify your preferences, and we'll provide you with the current rates."
+        ],
+        "context": [""]
+      }
+    ]
+  }
+  
