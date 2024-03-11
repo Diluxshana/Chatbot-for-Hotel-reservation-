@@ -1,0 +1,118 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #43c7c0;
+}
+
+/* Header Styles */
+.msger-header {
+  text-align: center;
+  background-color: #169a00; /* Green */
+  color: rgb(192, 59, 59);
+  padding: 10px;
+}
+
+.msger-header-title {
+  font-size: 24px;
+}
+
+/* Chat Container Styles */
+.msger {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 867px;
+  margin: 25px auto;
+  height: calc(100% - 50px);
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  background-color: #b7bad4;
+  box-shadow: 0 15px 15px -5px rgba(0, 0, 0, 0.2);
+}
+
+/* Chat Messages Styles */
+.msger-chat {
+  flex: 1;
+  overflow-y: auto;
+  padding: 10px;
+  width: 100%;
+}
+
+.msg {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 10px;
+}
+
+.msg-img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.msg-bubble {
+  max-width: 450px;
+  padding: 15px;
+  border-radius: 15px;
+  background-color: #52da52; /* Light green */
+}
+
+.msg-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.msg-info-name {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.msg-info-time {
+  font-size: 0.85em;
+}
+
+.left-msg .msg-bubble {
+  border-bottom-left-radius: 0;
+}
+
+.right-msg .msg-bubble {
+  border-bottom-right-radius: 0;
+}
+
+/* Input Area Styles */
+.msger-inputarea {
+  display: flex;
+  padding: 10px;
+  border-top: 2px solid #ddd;
+  background-color: #e49191;
+}
+
+.msger-input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  font-size: 1em;
+}
+
+.msger-send-btn {
+  margin-left: 10px;
+  background-color: #1785aa; /* Blue */
+  color: rgb(224, 123, 123);
+  font-weight: bold;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.msger-send-btn:hover {
+  background-color: #007f20; /* Darker blue */
+}
